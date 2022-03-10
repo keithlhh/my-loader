@@ -3,7 +3,7 @@
  * https://webpack.js.org/contribute/writing-a-loader
  */
 
-module.exports = function loader (source) {
+module.exports = function (source) {
 	console.log(source, '0009999999')
 	const { loaders, resource, request, version, webpack } = this;
 	console.log('y-loader', this);
