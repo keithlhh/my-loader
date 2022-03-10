@@ -21,8 +21,6 @@ module.exports = function (source) {
 	 * Original Source From Loader
 	 */
 	${source}`;
-	console.log('version 1.0.1')
 	console.log('这里是自定义loader')
-
 	return newSource;
 }
